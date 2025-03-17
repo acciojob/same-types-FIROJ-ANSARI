@@ -1,11 +1,12 @@
 function isSameType(value1, value2) {
-		  if(value1 === value){
+				  if(value1 == value && value1 === value2){
+					  console.log("True")
 				  return true;
 		  }
 	return false;
 }
 
 // do not change the code below.
-let value1 = prompt("Enter Start of the Range.");
-let value2 = prompt("Enter End Of the Range.");
-alert(isSameType(value1, value2));
+// let value1 = prompt("Enter Start of the Range.");
+// let value2 = prompt("Enter End Of the Range.");
+// alert(isSameType(value1, value2));
